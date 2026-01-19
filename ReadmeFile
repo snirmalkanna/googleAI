@@ -1,0 +1,4 @@
+http://localhost:8080/generate?prompt=%22top%205%20mobiles%22
+http://localhost:8080/ai/generateStream?prompt=%22top%205%20mobiles%22
+http://localhost:8080/chat
+{ "prompt": "Tell me a fun fact about space" }
