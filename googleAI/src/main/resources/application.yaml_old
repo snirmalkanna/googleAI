@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: spring-gemini-ai
+
+  ai:
+    model:
+      chat: google-genai
+    google:
+      genai:
+        api-key: YOUR_GOOGLE_API_KEY_HERE
+        chat:
+          options:
+            model: gemini-2.5-flash
+server:
+  port: 8080
